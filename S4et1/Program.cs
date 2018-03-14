@@ -16,12 +16,7 @@ namespace S4et1
 
         public double Summa { get; set; }
 
-        public S4et1()
-        {
-            this.Num = 0;
-            this.nomerS4eta = 0;
-            this.Summa = 0;
-        }
+
 
         public void Input()
         {
@@ -37,13 +32,6 @@ namespace S4et1
             Console.WriteLine($"Сумма счета: { this.Summa }");
         }
 
-        static void Main(string[] args)
-        {
-            S4et1 scr = new S4et1();
-            scr.Input();
-            scr.Print();
-            Console.ReadKey();
-        }
 
     }
 }
